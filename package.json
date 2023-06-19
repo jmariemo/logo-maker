@@ -1,22 +1,17 @@
 {
   "name": "logo-maker",
   "version": "1.0.0",
-  "description": "this is a custom logo generator",
+  "description": "",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jmariemo/logo-maker.git"
-  },
-  "author": "Jennifer",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jmariemo/logo-maker/issues"
-  },
-  "homepage": "https://github.com/jmariemo/logo-maker#readme"
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
 }
