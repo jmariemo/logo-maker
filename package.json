@@ -1,17 +1,18 @@
 {
   "name": "logo-maker",
   "version": "1.0.0",
-  "description": "Command line logo generator",
+  "description": "This is my submission for the Module 10 Homework Challenge. This submission is a command-line application that uses the inquirer module to accept user input for text, text color, shape, and shape color. The user input is saved in objects which are then in turn required",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "author": "Jennifer",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "inquirer": "^8.2.4"
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }
