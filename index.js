@@ -1,6 +1,6 @@
 // constants to pull in required inquirer module and shape + svg objects
 const  inquirer = require("inquirer");
-const {Triangle, Circle, Square} = require("./lib/shape.js");
+const {Circle, Triangle, Square} = require("./lib/shape.js");
 const {writeFile} = require("fs/promises");
 const SVG = require("./lib/svg.js");
 
