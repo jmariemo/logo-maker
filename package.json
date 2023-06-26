@@ -1,7 +1,7 @@
 {
   "name": "logo-maker",
   "version": "1.0.0",
-  "description": "This is my submission for the Module 10 Homework Challenge. This submission is a command-line application that uses the inquirer module to accept user input for text, text color, shape, and shape color. The user input is saved in objects which are then in turn required",
+  "description": "This is my submission for the Module 10 Homework Challenge. This submission is a command-line application that uses the inquirer module to accept user input for text, text color, shape, and shape color. The user input is saved in classes which are then in turn used to generate an SVG file. This submission includes 3 tests to test the functionality of the SVG render function.",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -9,10 +9,10 @@
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Jennifer",
   "license": "ISC",
   "devDependencies": {
+    "inquirer": "^8.2.4",
     "jest": "^29.5.0"
   }
 }
